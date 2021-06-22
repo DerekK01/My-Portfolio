@@ -327,6 +327,16 @@
 
 @media screen and (max-width: 480px) {
 
+    .main__container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 140vh;
+    }
+
     .main__content h1 {
         font-size: 2rem;
         margin-top: 3rem;
@@ -480,6 +490,14 @@
         padding: 10px;
         width: 100%;
     }
+    .footer__container {
+        background-color: #141414;
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* experience */
@@ -622,7 +640,7 @@
 @media screen and (max-width: 960px) {
     .accordion {
         background-color: #141414;
-        padding: 2rem 4rem;
+        padding: 0.1rem 1rem;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
